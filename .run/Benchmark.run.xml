@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Benchmark" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="analysis.Benchmark" />
+    <module name="bst-hash-table" />
+    <option name="PROGRAM_PARAMETERS" value="generated-results" />
+    <option name="VM_PARAMETERS" value="-Xms256m -Xmx1g" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

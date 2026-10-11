@@ -1,0 +1,43 @@
+PASS: BST basic operations
+PASS: Hash table basic operations
+PASS: BST deletion cases
+PASS: BST sorted depth 10000
+PASS: Hash collisions and resizing
+PASS: Negative and extreme integer keys
+PASS: BST null rejection
+PASS: Hash table null rejection
+PASS: BST randomized differential test
+PASS: Hash table randomized differential test
+PASS: 10 test groups, 256666 assertions
+Initial JVM warmup...
+random, n=100, batches=100
+random, n=1000, batches=10
+random, n=10000, batches=1
+sorted, n=100, batches=100
+sorted, n=1000, batches=10
+sorted, n=10000, batches=1
+collisions, n=100, batches=100
+collisions, n=1000, batches=10
+collisions, n=10000, batches=1
+| Scenario | n | Structure | Insert (ms) | Search hit (ms) | Search miss (ms) | Delete (ms) | Height / max chain |
+|---|---:|---|---:|---:|---:|---:|---:|
+| random | 100 | BST | 0.004684 | 0.004927 | 0.001288 | 0.005156 | 13.31 |
+| random | 100 | HashTable | 0.003716 | 0.000869 | 0.000681 | 0.001014 | 1.00 |
+| random | 1,000 | BST | 0.075920 | 0.079810 | 0.019250 | 0.082790 | 22.00 |
+| random | 1,000 | HashTable | 0.024770 | 0.008720 | 0.004710 | 0.008980 | 1.00 |
+| random | 10,000 | BST | 1.025900 | 1.159900 | 0.139000 | 1.058600 | 31.00 |
+| random | 10,000 | HashTable | 0.253900 | 0.099500 | 0.097300 | 0.099600 | 1.00 |
+| sorted | 100 | BST | 0.009077 | 0.010203 | 0.017863 | 0.006930 | 100.00 |
+| sorted | 100 | HashTable | 0.002578 | 0.000944 | 0.000629 | 0.001052 | 1.00 |
+| sorted | 1,000 | BST | 0.995440 | 1.126250 | 2.759740 | 0.575770 | 1000.00 |
+| sorted | 1,000 | HashTable | 0.020080 | 0.003010 | 0.001540 | 0.003830 | 1.00 |
+| sorted | 10,000 | BST | 112.745700 | 124.016900 | 284.733600 | 80.939100 | 10000.00 |
+| sorted | 10,000 | HashTable | 0.149200 | 0.040300 | 0.064800 | 0.049500 | 1.00 |
+| collisions | 100 | BST | 0.004533 | 0.005224 | 0.000979 | 0.004928 | 13.31 |
+| collisions | 100 | HashTable | 0.010027 | 0.009739 | 0.015427 | 0.005903 | 100.00 |
+| collisions | 1,000 | BST | 0.080730 | 0.086290 | 0.016840 | 0.087920 | 22.00 |
+| collisions | 1,000 | HashTable | 1.109900 | 1.129630 | 2.270650 | 0.605170 | 1000.00 |
+| collisions | 10,000 | BST | 1.472400 | 1.593400 | 0.130100 | 1.516200 | 31.00 |
+| collisions | 10,000 | HashTable | 117.044400 | 124.182800 | 246.550700 | 74.829900 | 10000.00 |
+Benchmark complete: C:\Users\user\Documents\Codex\2026-10-11\tasks-1-implement-a-bst-and\outputs\bst-hash-table\results
+Checksum: 9058000000

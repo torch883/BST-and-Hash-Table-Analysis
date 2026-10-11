@@ -1,0 +1,6 @@
+cpu=13th Gen Intel(R) Core(TM) i5-13420H
+physical_cores=8
+logical_processors=12
+physical_memory_bytes=16786792448
+os=Майкрософт Windows 11 Pro
+os_version=10.0.22631
